@@ -1,4 +1,4 @@
-name: NF-e Entrada
+name: Formulário NF-e Entrada
 description: Descrição dos pontos a serem testados quando houver alterações na(s) rotinas da NF-e de Entrada
 title: "NF-e Entrada | SUS-"
 labels: ["bug"]
