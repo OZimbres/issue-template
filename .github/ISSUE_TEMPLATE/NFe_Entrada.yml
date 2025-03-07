@@ -1,0 +1,35 @@
+name: NF-e Entrada
+description: Descrição dos pontos a serem testados quando houver alterações na(s) rotinas da NF-e de Entrada
+title: "NF-e Entrada | SUS-"
+labels: ["bug"]
+projects: []
+type: Informações Complementares de Teste
+assignees:
+  - LoriaLawrenceZ
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!WARNING]
+        >
+        > As checkboxes só devem ser marcadas para aquelas rotinas quais você *JÁ* testou!
+  - type: checkboxes
+    id: affected-routines
+    attributes:
+      label: ROTINAS
+      description: Quais as rotinas que já foram testadas? (Você pode selecionar mais de uma.)
+      options:
+        - label: Cálculo de Itens
+        - label: Importação de NF-e Entrada
+        - label: Importação de Pedido de Compra
+        - label: Salvamento da NF-e Entrada
+        - label: Finalização da NF-e Entrada
+        - label: Transmissão da NF-e Entrada
+  - type: input
+    id: tarefa-originadora
+    attributes:
+      label: Tarefa Originadora
+      description: Tarefa originadora, podendo dar maior compreensão sobre o que foi alterado e o que foi testado na origem do bug
+      placeholder: SUS-XXXX
+    validations:
+      required: false
