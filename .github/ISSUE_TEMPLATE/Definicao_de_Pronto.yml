@@ -1,7 +1,7 @@
 name: Definições de Pronto
 description: Requisito mínimos para que a tarefa possa seguir com o fluxo de entrega
 title: "Definiçõe de Pronto"
-labels: ["Definições de Pronto"]
+labels: ["Definições de Pronto | FIS-"]
 projects: []
 type: Informações Complementares de Teste
 assignees:
