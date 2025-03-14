@@ -1,0 +1,17 @@
+name: Formulário NF-e Entrada
+description: Descrição dos pontos a serem testados quando houver alterações na(s) rotinas da NF-e de Entrada
+title: "NF-e Entrada | SUS-"
+labels: ["bug"]
+projects: []
+type: Informações Complementares de Teste
+assignees:
+  - LoriaLawrenceZ
+body:
+  - type: textarea
+    id: def-pronto
+    attributes:
+      label: Definições de Pronto
+      description: Requisito mínimos para que a tarefa possa seguir com o fluxo de entrega
+      placeholder: - [ ] Caso X
+    validations:
+      required: true
